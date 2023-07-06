@@ -10,7 +10,7 @@
     list-style: none;
     display:flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;border-bottom: 1px solid white;
 }
 
 .logo{
@@ -47,4 +47,16 @@
 }
 .menus li:hover {
     color:#0072DB;
+}
+
+.banner-img {
+    width: 400px;
+}
+.banner-container {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    background-image:linear-gradient(to right, rgb(6, 6, 6), rgba(51, 3, 39, 0.967)), url('./assets/black_tile.png');
+    color: #fff;
 }
