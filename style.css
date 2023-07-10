@@ -159,3 +159,39 @@
     padding: 10px 20px;
     margin-top: 30px;
 }
+
+
+/* footer */
+.footer-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    padding: 0 10%;
+    background-color: #3b1030;
+    color: #fff;
+
+}
+
+.footer_column{
+    padding: 20px;
+    max-width: 350px;
+    font-size: 20px;
+}
+
+.footer-container li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+
+.copyright{
+    font-size: 22px;
+    color: #fff;
+    background-color: #3b1030;
+    text-align: center;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
